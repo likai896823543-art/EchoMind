@@ -1,0 +1,30 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 环境变量（含敏感信息，禁止提交）
+.env
+
+# ===== 前端 (Node) =====
+node_modules/
+frontend/dist/
+
+# ===== 数据与日志 =====
+logs/
+data/chroma/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
